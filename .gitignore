@@ -1,0 +1,50 @@
+target
+
+# intellij idea
+.idea/
+*.iml
+
+# eclipse
+.classpath
+.project
+.pydevproject
+.settings
+
+# neo4j
+data.db/
+data/
+neo4j-home/
+db/
+db2.db/
+antipattern.db/
+antipattern_test.db/
+antipattern.integration.db/
+antipattern.unit.db/
+antipattern.db*
+antipattern.unit*
+
+# OS Specific
+.DS_Store
+
+# log
+*.log*
+
+# bkp files
+*.bak
+*.orig
+
+
+!src/main/resources/middleman/*.udb
+src/main/resources/**/*.udb
+src/test/resources/**/*.udb
+src/main/resources/temp
+src/main/resources/code-analyze
+*.csv
+/bin/
+.gradle/
+/build/
+DATA_CLUMP**
+DEAD_CODE**
+DUPLICATE_CODE**
+FEATURE_ENVY**
+*.udb
